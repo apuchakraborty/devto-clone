@@ -7,6 +7,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
 import InboxIcon from '@material-ui/icons/Inbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
+import HomeWorkTwoToneIcon from '@material-ui/icons/HomeWorkTwoTone';
+import InfoTwoToneIcon from '@material-ui/icons/InfoTwoTone';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,14 +30,14 @@ export default function Leftmenu() {
       <List component="nav" aria-label="main mailbox folders">
         <ListItem button>
           <ListItemIcon>
-            <InboxIcon />
+            <HomeWorkTwoToneIcon />
           </ListItemIcon>
           <ListItemText primary="Home" />
         </ListItem>
 
         <ListItem button>
           <ListItemIcon>
-            <InboxIcon />
+            <InfoTwoToneIcon />
           </ListItemIcon>
           <ListItemText primary="About" />
         </ListItem>

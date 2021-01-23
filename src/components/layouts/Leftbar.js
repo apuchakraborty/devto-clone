@@ -26,7 +26,7 @@ const useStyles = makeStyles({
 
 export default function Leftbar() {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
+  
 
   return (
     <>
